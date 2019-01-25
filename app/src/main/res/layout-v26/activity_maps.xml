@@ -1,0 +1,101 @@
+
+
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/location_search"
+            android:layout_width="415dp"
+            android:layout_height="50dp"
+            android:textSize="19sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1dp"
+            android:ems="10"
+            android:hint="@string/search_here"
+            android:textColorHint="@android:color/darker_gray"
+            android:inputType=""
+            android:autofillHints="" />
+
+
+        <ImageButton
+            android:id="@+id/search_address"
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onClick"
+            android:src="@mipmap/search"
+
+            android:layout_alignParentRight="true"
+             />
+
+    </RelativeLayout>
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:context=".GoogleMapsActivity"
+        android:layout_alignParentLeft="true" />
+
+        <RelativeLayout
+            android:id="@+id/second_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageButton
+                android:id="@+id/charityhomes_nearby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+
+                android:onClick="onClick"
+                android:src="@mipmap/hospital"
+                android:layout_marginRight="120dp"
+                android:contentDescription="TODO"
+                android:layout_marginEnd="120dp" />
+
+            <ImageButton
+
+                android:id="@+id/restaurants_nearby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+
+                android:layout_marginRight="60dp"
+                android:src="@mipmap/restaurant"
+                android:layout_marginEnd="60dp" />
+        </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

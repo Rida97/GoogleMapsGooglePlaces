@@ -1,0 +1,8 @@
+<resources>
+    <string name="google_maps_API_key">AIzaSyBWmHG_2rV4Bux-Su508SS8z-QmnXUvoPY</string>
+    <string name="app_name">GoogleMapsGooglePlaces</string>
+    <string name="title_activity_maps">map</string>
+    <string name="title_activity_google_maps">Map</string>
+    <string name="search_here">Search here</string>
+
+</resources>
