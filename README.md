@@ -1,3 +1,12 @@
+<img src="/app/1.png" width="150">
+<img src="/app/2.png" width="150">
+<img src="/app/bf3.png" width="150">
+<img src="/app/3.png" width="150">
+<img src="/app/4.png" width="150">
+<img src="/app/5.png" width="150">
+<img src="/app/6.png" width="150">
+
+
 **FOOD CHARITY APP** - an android application built using Java and XML 
 
 **Description:**
